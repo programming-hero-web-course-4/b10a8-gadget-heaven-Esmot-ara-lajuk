@@ -1,0 +1,255 @@
+ [
+        {
+            "id": 1,
+            "title": "MacBook Pro 14",
+            "product_img": "https://i.ibb.co.com/xmr1FtW/product-1.jpg",
+            "category": "Laptop",
+            "price": 1999.99,
+            "description": "Powerful laptop for professionals with M1 Pro chip.",
+            "specification": {
+                "processor": "Apple M1 Pro",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "14-inch Retina"
+            },
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "id": 2,
+            "title": "Dell XPS 13",
+            "product_img": "https://i.ibb.co.com/xmr1FtW/product-1.jpg",
+            "category": "Laptop",
+            "price": 1499.99,
+            "description": "Ultra-portable laptop with stunning display and performance.",
+            "specification": {
+                "processor": "Intel Core i7",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "13.4-inch FHD"
+            },
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "id": 3,
+            "title": "HP Spectre x360",
+            "product_img": "https://i.ibb.co.com/xmr1FtW/product-1.jpg",
+            "category": "Laptop",
+            "price": 1399.99,
+            "description": "Versatile 2-in-1 laptop with elegant design.",
+            "specification": {
+                "processor": "Intel Core i5",
+                "ram": "8 GB",
+                "storage": "256 GB SSD",
+                "display": "13.3-inch FHD"
+            },
+            "availability": false,
+            "rating": 4.5
+        },
+        {
+            "id": 4,
+            "title": "Lenovo ThinkPad X1 Carbon",
+            "product_img": "https://i.ibb.co.com/xmr1FtW/product-1.jpg",
+            "category": "Laptop",
+            "price": 1799.99,
+            "description": "Lightweight and durable laptop for business professionals.",
+            "specification": {
+                "processor": "Intel Core i7",
+                "ram": "16 GB",
+                "storage": "1 TB SSD",
+                "display": "14-inch UHD"
+            },
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "id": 5,
+            "title": "USB-C Hub",
+            "product_img": "https://i.ibb.co.com/cy0sYmy/product-2.jpg",
+            "category": "Accessories",
+            "price": 49.99,
+            "description": "Multi-port USB-C hub for MacBook and laptops.",
+            "specification": {
+                "ports": ["USB-A", "HDMI", "Ethernet"],
+                "compatibility": "USB-C devices",
+                "material": "Aluminum"
+            },
+            "availability": true,
+            "rating": 4.4
+        },
+        {
+            "id": 6,
+            "title": "Wireless Mouse",
+            "product_img": "https://i.ibb.co.com/cy0sYmy/product-2.jpg",
+            "category": "Accessories",
+            "price": 29.99,
+            "description": "Ergonomic wireless mouse with Bluetooth connectivity.",
+            "specification": {
+                "battery": "Rechargeable",
+                "range": "10 meters",
+                "color": "Black"
+            },
+            "availability": true,
+            "rating": 4.5
+        },
+        {
+            "id": 7,
+            "title": "Laptop Stand",
+            "product_img": "https://i.ibb.co.com/cy0sYmy/product-2.jpg",
+            "category": "Accessories",
+            "price": 39.99,
+            "description": "Adjustable laptop stand for better ergonomics.",
+            "specification": {
+                "material": "Aluminum",
+                "adjustable_height": "Yes",
+                "portability": "Foldable"
+            },
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "id": 8,
+            "title": "Bluetooth Headphones",
+            "product_img": "https://i.ibb.co.com/cy0sYmy/product-2.jpg",
+            "category": "Accessories",
+            "price": 89.99,
+            "description": "Noise-canceling Bluetooth headphones.",
+            "specification": {
+                "battery_life": "20 hours",
+                "connectivity": "Bluetooth 5.0",
+                "color": "Silver"
+            },
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "id": 9,
+            "title": "Apple Watch Series 8",
+            "product_img": "https://i.ibb.co.com/wrBRzTP/product-3.jpg",
+            "category": "Smartwatch",
+            "price": 399.99,
+            "description": "The latest smartwatch with health monitoring features.",
+            "specification": {
+                "battery": "18 hours",
+                "water_resistance": "50m",
+                "connectivity": "Bluetooth, Wi-Fi",
+                "features": ["Heart Rate Monitoring", "GPS", "ECG"]
+            },
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "id": 10,
+            "title": "Samsung Galaxy Watch 5",
+            "product_img": "https://i.ibb.co.com/wrBRzTP/product-3.jpg",
+            "category": "Smartwatch",
+            "price": 299.99,
+            "description": "Stylish smartwatch with fitness tracking capabilities.",
+            "specification": {
+                "battery": "40 hours",
+                "water_resistance": "IP68",
+                "connectivity": "Bluetooth, Wi-Fi",
+                "features": ["Sleep Tracking", "Heart Rate Monitoring", "GPS"]
+            },
+            "availability": true,
+            "rating": 4.5
+        },
+        {
+            "id": 11,
+            "title": "Fitbit Versa 3",
+            "product_img": "https://i.ibb.co.com/wrBRzTP/product-3.jpg",
+            "category": "Smartwatch",
+            "price": 229.99,
+            "description": "Smart fitness watch with built-in GPS.",
+            "specification": {
+                "battery": "6 days",
+                "water_resistance": "50m",
+                "connectivity": "Bluetooth",
+                "features": ["Heart Rate Monitoring", "GPS"]
+            },
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "id": 12,
+            "title": "Fossil Gen 6",
+            "product_img": "https://i.ibb.co.com/wrBRzTP/product-3.jpg",
+            "category": "Smartwatch",
+            "price": 299.99,
+            "description": "Fashionable smartwatch with customizable watch faces.",
+            "specification": {
+                "battery": "24 hours",
+                "water_resistance": "IP68",
+                "connectivity": "Bluetooth, Wi-Fi",
+                "features": ["Heart Rate Monitoring", "Customizable Faces"]
+            },
+            "availability": true,
+            "rating": 4.4
+        },
+        {
+            "id": 13,
+            "title": "MacBook Air M2",
+            "product_img": "https://i.ibb.co.com/NKWM8hk/product-4.jpg",
+            "category": "MackBook",
+            "price": 999.99,
+            "description": "Lightweight laptop with M2 chip.",
+            "specification": {
+                "processor": "Apple M2",
+                "ram": "8 GB",
+                "storage": "256 GB SSD",
+                "display": "13.6-inch Retina"
+            },
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "id": 14,
+            "title": "MacBook Pro 16",
+            "product_img": "https://i.ibb.co.com/NKWM8hk/product-4.jpg",
+            "category": "MackBook",
+            "price": 2499.99,
+            "description": "High-performance laptop for creative professionals.",
+            "specification": {
+                "processor": "Apple M1 Max",
+                "ram": "32 GB",
+                "storage": "1 TB SSD",
+                "display": "16-inch Liquid Retina"
+            },
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "id": 15,
+            "title": "MacBook Pro 13",
+            "product_img": "https://i.ibb.co.com/NKWM8hk/product-4.jpg",
+            "category": "MackBook",
+            "price": 1799.99,
+            "description": "Compact powerhouse for on-the-go productivity.",
+            "specification": {
+                "processor": "Apple M1 Pro",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "13.3-inch Retina"
+            },
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "id": 16,
+            "title": "MacBook Pro 15",
+            "product_img": "https://i.ibb.co.com/NKWM8hk/product-4.jpg",
+            "category": "MackBook",
+            "price": 1799.99,
+            "description": "Compact powerhouse for on-the-go productivity.",
+            "specification": {
+                "processor": "Apple M1 Pro",
+                "ram": "16 GB",
+                "storage": "512 GB SSD",
+                "display": "13.3-inch Retina"
+            },
+            "availability": true,
+            "rating": 4.8
+        }
+        ]
+
