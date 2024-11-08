@@ -12,7 +12,6 @@ const GadgetCards = () => {
   useEffect(() => {
     
     if (data && data.length > 0) {
-      console.log("Data Loaded:", data);
       if (!category) {
         
         setGadget(data);
@@ -21,7 +20,7 @@ const GadgetCards = () => {
         setGadget(filteredByCategory);
       }
     } else {
-      setGadget(data.slice(0,16));
+      setGadget(data);
     }
   }, [category, data]);
 
